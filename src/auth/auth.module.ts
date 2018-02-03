@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from './shared/shared.module';
 
-const ROUTES: Routes = [
+export const ROUTES: Routes = [
     { 
         path: 'auth', 
         children: [
