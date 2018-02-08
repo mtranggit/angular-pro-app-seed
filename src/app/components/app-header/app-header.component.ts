@@ -26,7 +26,6 @@ export class AppHeaderComponent {
     logout = new EventEmitter<any>();
 
     logoutUser() {
-        console.log('emitting logout event');
         this.logout.emit();
     }
 }
