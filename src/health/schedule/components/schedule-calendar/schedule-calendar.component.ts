@@ -11,7 +11,7 @@ import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
     `
 })
 export class ScheduleCalendarComponent {
-    @Input()
-    date: Date;
+    @Input() date: Date;
+
     constructor() {}
 }
